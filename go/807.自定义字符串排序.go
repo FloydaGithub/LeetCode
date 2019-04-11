@@ -93,15 +93,19 @@ func maxIncreaseKeepingSkyline(grid [][]int) int {
 	return ret
 }
 
+/*
 func main() {
-	grid := [][]int{{3, 0, 8, 4}, {2, 4, 5, 7}, {9, 2, 6, 3}, {0, 3, 1, 0}}
-	ret := maxIncreaseKeepingSkyline(grid)
-	println("[807.go] ret", ret)
+    grid := [][]int{{3, 0, 8, 4}, {2, 4, 5, 7}, {9, 2, 6, 3}, {0, 3, 1, 0}}
+    ret := maxIncreaseKeepingSkyline(grid)
+    println("[807.go] ret", ret)
 }
+*/
 
 /*
-执行用时 : 12 ms, 在Max Increase to Keep City Skyline的Go提交中击败了94.74% 的用户
-内存消耗 : 3.6 MB, 在Max Increase to Keep City Skyline的Go提交中击败了0.00% 的用户
+√ Accepted
+√ 133/133 cases passed (12 ms)
+√ Your runtime beats 94.74 % of golang submissions
+√ Your memory usage beats 35.71 % of golang submissions (3.5 MB)
 */
 
 /*
