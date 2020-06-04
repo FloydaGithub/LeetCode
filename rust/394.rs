@@ -45,7 +45,7 @@ impl Solution {
 fn main() {
     // let mut result: String = "3[a]2[bc]".to_string();
     // let mut result: String = "3[a234kk]2[bc]".to_string();
-    // let mut result: String = "2[a3[b4[c5[d]]]]".to_string();
+    let mut result: String = "2[a3[b4[c5[d]]]]".to_string();
     result = Solution::decode_string(result);
     println!("{:?}", result);
 }
